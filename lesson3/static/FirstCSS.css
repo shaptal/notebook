@@ -1,0 +1,59 @@
+:root{
+    --blue:#373e98;
+    --yellow: #ceb92c;
+    --pink:#f16775;
+}
+
+
+h1 {
+    color:olivedrab; 
+    font-size: 50px;
+}
+ol{
+    color: var(--pink);
+}
+body{
+    /*text-align: center;
+    color: blue;
+    */
+    background-image: url(maps.jpg);
+    background-size: 110%;
+}
+* {
+    color: black;
+}
+.list1{
+    color: purple;
+}
+#important{
+    text-decoration: underline;
+    font: italic;
+}
+h1.list1{
+    color: brown;
+}
+li,p{
+    text-align: left;
+}
+
+a:link{
+    text-decoration: underline;
+    color: blue;
+    background-color: chartreuse;
+}
+a:visited{
+    color: rgb(109, 176, 46);
+    background-color: blue;
+}
+a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+a:active{
+    color: black;
+    background-color: black;
+}
+a[target="_self"]{
+    background-color:greenyellow;
+}
+
